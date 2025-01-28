@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Winkelwagen</title>
 </head>
-<body style="overflow: scroll" class="content">
-	<header>
-	  <div class="image"><img src="images/logo.png" width="140px" height="140px" alt=""/></div>
-      <div class="overlay"></div>
-    </header>
+<body class="content">
+<header>
+    <a href="af/index.html"><h1>Snug & Spruce</h1></a>
+    <nav class="nav">
+        <ul>
+            <li><a href="af/index.html">Home</a></li>
+            <li><a href="produkten.html">Produkten</a></li>
+            <li><a href="overons.html">Over ons</a></li>
+            <li class="cart">
+                <a href="cart.html">
+                    <ion-icon name="basket"></ion-icon>
+                    Winkelwagen<span>0</span></a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-	<nav class="nav">
-           <ul>
-                <li><a href="index.html">Home</a></li>
-				<li><a href="produkten.html">Produkten</a></li>
-                <li><a href="overons.html">Over ons</a></li>
-                <li class="cart">
-				<a href="cart.html"><ion-icon name="basket"></ion-icon>Winkelwagen<span>0</span></a>
-                </li>
-            </ul>
-	</nav>
-
-	<div class="container">
-	<div class="container-products"><h1>Winkelwagen</h1>
+<div class="container">
+    <div class="container-products"><h1>Winkelwagen</h1>
         <div class="product-header">
             <h5 class="product-title">Produkt</h5>
             <h5 class="price sm-hide">Prijs</h5>
@@ -35,16 +35,21 @@
         <div class="products">
 
         </div>
-		<a href="pay.html"><button style="position: relative;  margin: auto; width: 200px; text-align: center;">Afrekenen</button></a>
+        <a href="pay.html">
+            <button style="position: relative;  margin: auto; width: 200px; text-align: center;">Afrekenen</button>
+        </a>
 
-		<footer style="position: relative; margin: auto; width: 100%; text-align: center; "><br>
-		Copyright © 2024 IUW Enterprises<br><br></footer>
-	</div>\</div>
-	
-
-
-	<script src="main.js"></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
+        <footer>
+            <p>&copy; 2025 Snug & Spruce. All rights reserved.</p>
+            <div id="guarantees">
+                <p>Within 3 days at home</p>
+                <p>1 year factory guarantee</p>
+                <p>9.5 from our customers</p>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="main.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
