@@ -1,21 +1,21 @@
 let carts = document.querySelectorAll('.add-cart');
 
-let products = [ 
+let products = [
     {
-        name: "Docent zonder haar",
-        tag: "docentzonderhaar",
-        price: 15,
+        name: "Blanket",
+        tag: "blanket",
+        price: 25,
         inCart: 0
     },
     {
-        name: "Docent met baard",
-        tag: "docentmetbaard",
-        price: 30,
+        name: "Candle",
+        tag: "candle",
+        price: 10,
         inCart: 0
     },
     {
-        name: "Docent met haar",
-        tag: "docentmethaar",
+        name: "Plant",
+        tag: "plant",
         price: 15,
         inCart: 0
     },
@@ -48,7 +48,8 @@ let products = [
         tag: "docentmetlanghaar",
         price: 400,
         inCart: 0
-    }
+    },
+
 ];
 
 for(let i=0; i< carts.length; i++) {
