@@ -10,7 +10,7 @@ let products = [
     {
         name: "Docent met baard",
         tag: "docentmetbaard",
-        price: 15,
+        price: 30,
         inCart: 0
     },
     {

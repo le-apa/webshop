@@ -57,7 +57,7 @@ a {
 }
 
 a:visited {
-    color: inherit;
+    color: white;
 }
 
 a:hover, a:active {
@@ -232,19 +232,22 @@ li a {
 
 
 .add-cart {
-    position: absolute;
-	margin-right: 20px;
-    margin-left: 20px;
-    width: 140px;
-    background-color: darkgrey;
-    transition: all 0.3s ease-in-out;
-    opacity: 0;
-	color: white;
-    cursor: pointer;
-    text-align: center;
-	text-decoration: none;
-	vertical-align: baseline;
-	border-radius: 9px;
+    display: block; /* Ensure the button is displayed */
+    width: 100%;
+    background-color: #1D4E89; /* Background color */
+    color: white; /* Text color */
+    padding: 0.5rem; /* Padding for the button */
+    text-align: center; /* Center the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from text */
+    margin-top: 1rem; /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    align-self: center; /* Center align in flex container */
+    z-index: 1; /* Ensure it is above other elements */
+}
+
+.add-cart a{
+    color:white;
 }
 
 .image .cart1,
@@ -320,6 +323,28 @@ li a {
 }
 .overons p{
     font-size: 1.3rem;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #F7FAFC;
+}
+
+.product-card {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1rem;
+    max-width: 1200px;
+}
+
+.product-card img {
+    border-radius: 8px;
+    margin-right: 1rem;
 }
 /* ----------------- CART PAGE --------------- */
 
