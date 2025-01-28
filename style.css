@@ -295,8 +295,28 @@ li a {
     padding: 2rem;
 }
 
+.overons-sectie{
+    height:100vh;
+    background-image: url('images/about-us.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .overons{
-    padding:5rem;
+    background-color: #175e7c;
+    padding: 2rem;
+    width:50%;
+}
+
+.overons h1{
+    font-family: "Open Sans", Soria;
+    font-size: 4rem;
 }
 .overons p{
     font-size: 1.3rem;
