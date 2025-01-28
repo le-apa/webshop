@@ -9,11 +9,11 @@
 </head>
 <body style="overflow: scroll;" class="content">
 <header>
-    <a href="af/index.html"><h1>Snug & Spruce</h1></a>
+    <a href="index.html"><h1>Snug & Spruce</h1></a>
     <nav class="nav">
         <ul>
-            <li><a href="af/index.html">Home</a></li>
-            <li><a href="produkten.html">Produkten</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produkten.html">Producten</a></li>
             <li><a href="overons.html">Over ons</a></li>
             <li class="cart">
                 <a href="cart.html">
@@ -23,66 +23,21 @@
         </ul>
     </nav>
 </header>
-<div style="text-align: center;  border: 1px; padding: 0px;">
-    <div class="container">
-        <div class="image">
 
-            <table id="detail" border="0" style="padding: 5px; border: 1px solid;">
-                <tbody>
-                <tr>
-                    <td colspan="3"><h1>Produkt detail</h1><br></td>
-                </tr>
-                <tr>
-                    <td><img src="images/docentmetbaard.jpg" height="285px" width="250" alt=""></td>
-                    <br>
-                    <td>&nbsp;&nbsp;</td>
-                    <td valign="top" style="width: 400px; text-align: justify;"><img src="images/star.png" width="30"
-                                                                                     height="30" alt=""/><img
-                            src="images/star.png" width="30" height="30" alt=""/><img src="images/star.png" width="30"
-                                                                                      height="30" alt=""/><img
-                            src="images/star.png" width="30" height="30" alt=""/><img src="images/star.png" width="30"
-                                                                                      height="30" alt=""/><br><br>
-                        Eelcon Herder Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </td>
-                </tr>
-                <tr>
-                    <td><h3>Docent met baard</h3></td>
-                    <td></td>
-                    <br>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td><h3>&#8364 15,00</h3></td>
-                    <td>&nbsp;</td>
-                    <td><br>
-
-                        <!--THIS LINE IS NOT DISPLAYED (style="display: none;") but necesary for the button below to actually use "cart2")-->
-                        <a style="display: none; text-align: center; color: white; position: relative; margin-left: 0%; margin-bottom: 0%"
-                           class="add-cart cart1" href="produkten.html">In winkelwagen</a><input size="0" type="hidden"
-                                                                                                 value="15"/>
-
-                        <a style="text-align: center; color: white; position: relative; margin-left: 0%; margin-bottom: 0%"
-                           class="add-cart cart2" href="produkten.html">In winkelwagen</a><input size="0" type="hidden"
-                                                                                                 value="15"/></td>
-                </tr>
-
-
-                <tr>
-                    <td></td>
-                    <td>&nbsp;</td>
-                </tr>
-                </tbody>
-            </table>
-
+<div class="container-card">
+    <div class="product-card">
+        <img src="/images/blanket.jpg" height="500" width="500" alt="Product Image">
+        <div class="product-details">
+            <h3>Cozy blue blanket</h3>
+            <p>Wrap yourself in the ultimate comfort with our Luxe-Cozy Blue Blanket, a masterpiece of warmth and style. Crafted with care, this blanket is more than just an accessory—it's your go-to companion for quiet evenings, chilly mornings, and everything in between.</p>
+            <p>The blanket boasts a deep, serene shade of blue reminiscent of a peaceful twilight sky, bringing an air of tranquility to your space. Subtle, textured patterns weave through the soft fabric, adding a touch of elegance while maintaining its understated charm. Whether draped over your couch, bed, or favorite reading chair, this blanket is a statement of cozy sophistication.</p>
+            <p>Made from a premium blend of ultra-soft microfiber and breathable cotton, the Luxe-Cozy Blue Blanket offers the perfect balance of lightweight warmth and plush luxury. It feels like a gentle hug every time you touch it—soft, smooth, and irresistibly snuggly.</p>
+            <p>Measuring a generous 60" x 80", it’s large enough to share yet light enough to fold and store with ease. It’s machine washable, designed to retain its color and softness wash after wash, so it stays as inviting as the day you brought it home.</p>
+            <a class="add-cart cart1" href="#">In winkelwagen</a>
+            <input type="hidden" value="15" />
         </div>
     </div>
 </div>
-
 
 <footer>
     <p>&copy; 2025 Snug & Spruce. All rights reserved.</p>
@@ -92,7 +47,6 @@
         <p>9.5 from our customers</p>
     </div>
 </footer>
-
 <script src="main.js"></script>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 

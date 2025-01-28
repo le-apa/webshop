@@ -2,51 +2,21 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [ 
     {
-        name: "Docent zonder haar",
-        tag: "docentzonderhaar",
+        name: "Cozy blanket",
+        tag: "blanket",
         price: 15,
         inCart: 0
     },
     {
-        name: "Docent met baard",
-        tag: "docentmetbaard",
+        name: "Relaxing Candle",
+        tag: "candle",
         price: 15,
         inCart: 0
     },
     {
-        name: "Docent met haar",
-        tag: "docentmethaar",
+        name: "Potted plant",
+        tag: "plant",
         price: 15,
-        inCart: 0
-    },
-    {
-        name: "Studiepunten",
-        tag: "studiepunten",
-        price: 100,
-        inCart: 0
-    },
-	    {
-        name: "Minnaert gebouw",
-        tag: "minnaertgebouw",
-        price: 40000,
-        inCart: 0
-    },
-	    {
-        name: "Academie gebouw",
-        tag: "academiegebouw",
-        price: 60000,
-        inCart: 0
-    },
-	{
-        name: "Bachelor diploma",
-        tag: "bachelordiploma",
-        price: 10000,
-        inCart: 0
-    },
-	{
-        name: "Docent met lang haar",
-        tag: "docentmetlanghaar",
-        price: 400,
         inCart: 0
     }
 ];
