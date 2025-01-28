@@ -20,36 +20,29 @@ let products = [
         inCart: 0
     },
     {
-        name: "Studiepunten",
-        tag: "studiepunten",
+        name: "Rocking Chair",
+        tag: "rockingchair",
         price: 100,
         inCart: 0
     },
-	    {
-        name: "Minnaert gebouw",
-        tag: "minnaertgebouw",
+    {
+        name: "Zen Rug",
+        tag: "zenrug",
         price: 40000,
         inCart: 0
     },
-	    {
-        name: "Academie gebouw",
-        tag: "academiegebouw",
+    {
+        name: "Couch Pillows",
+        tag: "couchpillows",
         price: 60000,
         inCart: 0
     },
-	{
-        name: "Bachelor diploma",
-        tag: "bachelordiploma",
+    {
+        name: "Big Rug",
+        tag: "bigrug",
         price: 10000,
         inCart: 0
-    },
-	{
-        name: "Docent met lang haar",
-        tag: "docentmetlanghaar",
-        price: 400,
-        inCart: 0
-    },
-
+    }
 ];
 
 for(let i=0; i< carts.length; i++) {
